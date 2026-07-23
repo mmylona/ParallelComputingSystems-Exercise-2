@@ -29,7 +29,6 @@
 ---
 
 ## System Information
-* **Hostname:** linux01
 * **Processor model:** Intel Core i5-6500 @ 3.20GHz
 * **Number of cores:** 4
 * **OS version:** Ubuntu 20.04.6 LTS

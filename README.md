@@ -172,4 +172,3 @@ The exercise asks for the completion of the NVIDIA online course "Getting Starte
 
 ### 2.4.3 Results Commentary
 All three steps successfully passed both the correctness check and the minimum throughput threshold. The largest performance improvement is observed between Step 1 and Step 2; the removal of the intermediate buffer via zip/transform iterators saves an entire global memory read/write pass per simulation step. Between Step 2 and Step 3 the difference is negligible, which is expected since Step 3 concerns a separate kernel and not the main update loop for the `hx/hy/dz/ez` fields.
-assignment_2_mpi_cuda.md
